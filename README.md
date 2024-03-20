@@ -7,16 +7,16 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ### Before you begin, ensure you have met the following requirements:
 
-Operating System: Windows, macOS, Linux
+**Operating System:** Windows, macOS, Linux
 
-Software: Node.js, Angular CLI
+**Software:** Node.js, Angular CLI
 
-IDE: Visual Studio Code
+**IDE:** Visual Studio Code
 
 ## Installing Dependencies
 
-1. Node.js: Download and install Node.js from the official website: Node.js
-2. Angular CLI: Install Angular CLI globally using npm:
+**1. Node.js:** Download and install Node.js from the official website: Node.js
+**2. Angular CLI:** Install Angular CLI globally using npm:
    `npm install -g @angular/cli`
 
 ## Development server
