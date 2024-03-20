@@ -2,6 +2,21 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.0.
 
+
+## Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+Operating System: Windows, macOS, Linux
+Software: Node.js, Angular CLI
+IDE: Visual Studio Code
+
+## Installing Dependencies
+
+1. Node.js: Download and install Node.js from the official website: Node.js
+2. Angular CLI: Install Angular CLI globally using npm:
+   `npm install -g @angular/cli`
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
