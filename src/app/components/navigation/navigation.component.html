@@ -1,0 +1,23 @@
+<mat-toolbar class="flex justify-between">
+  <button mat-icon-button
+          class="example-icon"
+          (click)="routerNavigate('')"
+          aria-label="Home">
+    <mat-icon>home</mat-icon>
+  </button>
+  <span>WIUT SPI APP</span>
+  <div class="flex justify-center my-4 mx-3">
+    <button mat-button
+            (click)="routerNavigate('categories')">
+      Categories
+    </button>
+    <button mat-button
+            (click)="routerNavigate('suppliers')">
+      Suppliers
+    </button>
+    <button mat-button
+            (click)="routerNavigate('spareparts')">
+      Spare Parts
+    </button>
+  </div>
+</mat-toolbar>

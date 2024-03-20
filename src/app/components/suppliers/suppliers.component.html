@@ -1,0 +1,41 @@
+<div class="flex flex-auto w-full pt-4 justify-center">
+  <div class="flex flex-col max-w-5xl rounded-xl shadow-2xl p-4 min-w-[70%]  gap-3"
+       *ngIf="!loading">
+    <div class="flex flex-row justify-start items-center gap-4">
+      <h1 class="text-3xl">Suppliers</h1>
+      <button class="bg-green-500 p-2 rounded min-w-16 text-white"
+              (click)="createSupplier()"
+              mat-ripple>
+        + Add
+      </button>
+    </div>
+    <div class="flex flex-row justify-between w-full border rounded p-2 items-center"
+         *ngFor="let supplier of suppliers">
+      <div class="flex flex-col gap-1">
+        <div class="flex flex-row items-center h-full text-xl">
+          {{supplier.name}}
+        </div>
+        <div class="flex flex-row items-center h-full text-sm text-gray-500">
+          Email: {{supplier.email}}
+          | Phone: {{supplier.phone}}
+          | Contact person: {{supplier.contactPerson}}
+          | Address: {{supplier.address}}
+          | Website: {{supplier.website}}
+          | Last contact: {{supplier.lastContactDate}}
+        </div>
+      </div>
+      <div class="flex flex-row gap-2 h-fit">
+        <button class="bg-amber-500 p-2 rounded min-w-16 text-white"
+                (click)="updateSupplier(supplier.id)"
+                mat-ripple>
+          Edit
+        </button>
+        <button class="bg-red-700 p-2 rounded min-w-16 text-white"
+                (click)="deleteSupplier(supplier.id)"
+                mat-ripple>
+          Delete
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

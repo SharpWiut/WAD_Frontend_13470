@@ -1,0 +1,21 @@
+<div class="flex flex-col rounded bg-white p-4">
+  <div class="flex flex-row">
+    <h2 class="text-2xl font-bold">Create Category</h2>
+  </div>
+  <div class="flex flex-row">
+      <mat-form-field class="w-full" color="accent">
+        <input matInput
+               placeholder="name"
+               [(ngModel)]="categoryModel.name">
+      </mat-form-field>
+  </div>
+  <div class="flex flex-row justify-end">
+    <button mat-raised-button
+            color="accent"
+            [disabled]="!categoryModel.name"
+            [mat-dialog-close]="true"
+            (click)="createCategory()">
+      {{ id ? 'Update' : 'Create' }}
+    </button>
+  </div>
+</div>

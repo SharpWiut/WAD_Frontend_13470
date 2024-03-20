@@ -1,0 +1,21 @@
+<div class="flex flex-col bg-white p-5">
+  <div class="modal-body">
+    <h4>Are you sure you want to delete {{ categoryModel.name }}?</h4>
+  </div>
+  <div class="flex flex-row w-full justify-end gap-2">
+    <button class=""
+            mat-flat-button
+            color="warn"
+            [mat-dialog-close]="true"
+            (click)="deleteCategory()">
+      Delete
+    </button>
+    <button mat-flat-button
+            color="accent"
+            [mat-dialog-close]="true"
+            class="btn btn-default"
+            data-dismiss="modal">
+      Cancel
+    </button>
+  </div>
+</div>

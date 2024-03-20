@@ -1,0 +1,25 @@
+<div class="flex flex-auto h-full w-full justify-center items-center">
+  <div class="flex flex-col min-w-20 gap-2">
+    <div class="flex flex-row">
+      <button mat-ripple
+              class="bg-cyan-500 text-white p-2 rounded w-full text-left hover:bg-cyan-700 transition-all"
+              (click)="routerNavigate('categories')">
+        Categories
+      </button>
+    </div>
+    <div class="flex flex-row">
+      <button mat-ripple
+              (click)="routerNavigate('suppliers')"
+              class="bg-cyan-500 text-white p-2 rounded w-full text-left hover:bg-cyan-700 transition-all">
+        Suppliers
+      </button>
+    </div>
+    <div class="flex flex-row">
+      <button mat-ripple
+              (click)="routerNavigate('spareparts')"
+              class="bg-cyan-500 text-white p-2 rounded w-full text-left hover:bg-cyan-700 transition-all">
+        Spare Parts
+      </button>
+    </div>
+  </div>
+</div>
