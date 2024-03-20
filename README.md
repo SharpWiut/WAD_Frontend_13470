@@ -16,6 +16,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Installing Dependencies
 
 **1. Node.js:** Download and install Node.js from the official website: Node.js
+
 **2. Angular CLI:** Install Angular CLI globally using npm:
 
    `npm install -g @angular/cli`
@@ -39,6 +40,7 @@ Follow these steps to set up and run the project:
 `cd {Project}
 npm install
 `
+
 **4. Run the Application:** Start the application by running the backend server and the Angular frontend:
 
 `ng serve --o`
