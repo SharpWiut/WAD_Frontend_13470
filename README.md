@@ -1,7 +1,17 @@
 # This application was developed for Web Application module, as coursework portfolio project @ WIUT by student ID: 00013470
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.0.
 
+To determine the topic based on your student ID, we'll perform the following calculation:
+
+Student ID: 00013470
+Remainder = Student ID % 20
+
+Now, let's calculate the remainder:
+
+Remainder = 00013470 % 20
+Remainder = 10
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.0.
 
 ## Prerequisites
 
