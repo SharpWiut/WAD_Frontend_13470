@@ -5,7 +5,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Prerequisites
 
-Before you begin, ensure you have met the following requirements:
+### Before you begin, ensure you have met the following requirements:
 
 Operating System: Windows, macOS, Linux
 
