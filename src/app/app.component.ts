@@ -10,5 +10,5 @@ import {NavigationComponent} from "./components/navigation/navigation.component"
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'wuitspi';
+  title = 'SPI_13470';
 }
