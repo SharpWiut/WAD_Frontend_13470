@@ -8,7 +8,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 Before you begin, ensure you have met the following requirements:
 
 Operating System: Windows, macOS, Linux
+
 Software: Node.js, Angular CLI
+
 IDE: Visual Studio Code
 
 ## Installing Dependencies
