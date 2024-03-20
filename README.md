@@ -17,7 +17,16 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 **1. Node.js:** Download and install Node.js from the official website: Node.js
 **2. Angular CLI:** Install Angular CLI globally using npm:
+
    `npm install -g @angular/cli`
+   
+**3. Database:** Install the preferred database server and client tools (if necessary).
+
+
+
+
+
+
 
 ## Development server
 
