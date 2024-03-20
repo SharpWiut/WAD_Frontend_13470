@@ -6,10 +6,11 @@ To determine the topic based on your student ID, we'll perform the following cal
 Student ID: 00013470
 Remainder = Student ID % 20
 
-Now, let's calculate the remainder:
-
 Remainder = 00013470 % 20
 Remainder = 10
+
+Topic of the project is "Spare Parts Inventory" based on the instructions
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.0.
 
