@@ -9,7 +9,7 @@ Remainder = Student ID % 20
 Remainder = 00013470 % 20
 Remainder = 10
 
-Topic of the project is "Spare Parts Inventory" based on the instructions
+Topic of the project is "Spare Parts Inventory" according to the instructions
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.0.
