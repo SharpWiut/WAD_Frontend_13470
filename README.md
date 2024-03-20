@@ -22,9 +22,28 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
    
 **3. Database:** Install the preferred database server and client tools (if necessary).
 
+## Setting Up the Project
 
+Follow these steps to set up and run the project:
 
+**1.Clone Repository:** Clone the project repository to your local machine:
 
+`git clone https://github.com/SharpWuit/WAD_Frontend_13470`
+
+**2. Navigate to Project Directory:** Change directory to the project folder:
+
+`cd {project-folder}`
+
+**3. Install Dependencies:** Install npm packages for the Angular frontend:
+
+`cd {Project}
+npm install
+`
+**4. Run the Application:** Start the application by running the backend server and the Angular frontend:
+
+`ng serve --o`
+
+**5. Access the Application:** Open your web browser and navigate to  `http://localhost:4200/` to view the application.
 
 
 
